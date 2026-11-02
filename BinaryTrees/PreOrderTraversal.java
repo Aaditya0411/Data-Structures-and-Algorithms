@@ -37,7 +37,7 @@ public class PreOrderTraversal {
             }
 
             System.out.println(root.data + " ");
-            ;
+            
             Preorder(root.left);
             Preorder(root.right);
         }
